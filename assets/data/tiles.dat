@@ -1,0 +1,25 @@
+//tiles.dat
+//defines tiles
+
+//id, spriteID, spriteID2, rating, yOffset, groupID, name
+0,  101, 101, 1, 0, 0, Ground
+2,  102, 102, 1, -2, 0, Ground-Rock_1
+3,  103, 103, 1, -4, 0, Ground-Rock_2
+4,  104, 104, 1, -6, 0, Rock
+19, 116, 116, 1, -4, 0, Sand-Rock_2
+10, 116, 116, 1, -2, 0, Sand-Rock 1
+18, 114, 114, 1, 0, 0, Sand
+17, 113, 113, 1, 0, 0, Grass-Sand_2
+16, 112, 112, 1, 0, 0, Grass-Sand_1
+
+9,  105, 105, 1, 2, 1, Water
+1,  107, 107, 1, 1, 1, soil
+11, 108, 108, 1, 0, 1, Gorge
+12, 117, 117, 1, 0, 1, Dry_River_Bed
+
+5,  106, 106, 1, -132, 2, Mountain_1
+6,  110, 110, 1, -132, 2, Mountain_2
+7,  111, 111, 1, -132, 2, Mountain_3
+8,  109, 109, 1, -132, 2, Mountain_River 
+13, 118, 118, 1, 0, 2, Hill_1
+14, 119, 119, 1, 0, 2, Hill_2

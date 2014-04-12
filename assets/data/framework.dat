@@ -1,0 +1,21 @@
+//texture, 100, framework.png, support_for_framework
+texture, 101, editor.png, support_for_editor
+
+
+
+//editor
+sprite, 2000, 101, 0, 20, 1024, 78, 1, 0, 255, 1, 1, 0, border around icon selection
+sprite, 2001, 101, 24, 108, 964, 74, 1, 0, 255, 1, 1, 0, background of icon 
+sprite, 2002, 101, 13, 194, 68, 68, 1, 0, 255, 1, 1, 0, icon frame
+sprite, 2003, 101, 107, 193, 70, 70, 1, 0, 255, 1, 1, 0, icon frame highlight
+
+//open,save, clear, +, - file UI
+sprite, 2010, 101, 0, 269, 1024, 33, 1, 0, 255, 1, 1, 0, file management UI
+sprite, 2011, 101, 2, 308, 52, 27, 1, 0, 255, 1, 1, 0, open file
+sprite, 2012, 101, 55, 308, 50, 27, 1, 0, 255, 1, 1, 0, save file
+sprite, 2013, 101, 234, 309, 62, 27, 1, 0, 255, 1, 1, 0, clear level
+sprite, 2014, 101, 220, 307, 13, 13, 1, 0, 255, 1, 1, 0, + inc filename
+sprite, 2015, 101, 220, 322, 13, 13, 1, 0, 255, 1, 1, 0, - dec filename
+sprite, 2020, 101, 8, 356, 518, 564, 1, 0,255, 1, 1, 0, map
+
+sprite, 2030, 101, 556, 322, 155, 77, 1, 0, 255, 1, 1, 0, isotile_highlight

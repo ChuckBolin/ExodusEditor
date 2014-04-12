@@ -1,0 +1,21 @@
+//Scrolling credits at end of program
+//text 0 - 13
+//text, hor pos, font, red, green, blue, string
+//sprite, hor pos, sprite ID
+backcolor, 0, 0, 0//150, 160, 130
+vspace
+vspace
+//vspace
+text, -1, 12, 255, 255, 0, "Scrolling Text"
+//vspace
+//sprite, -1, 1003
+vspace
+vspace
+vspace
+scrollspeed, 4
+scrolltime, 0.025
+
+timer, 18
+
+
+

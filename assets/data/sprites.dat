@@ -1,0 +1,59 @@
+texture, 0, Movement_Moses.png, Moses Movement Animations in 8 directions
+texture, 1, Prayer_Moses.png, Moses Prayer Animations in 8 Directions
+texture, 2, Movement_Aaron.png, Aaron's Movement Animations in 8 directions
+texture, 3, Prayer_Aaron.png, Aaron's Prayer Animations in 8 Directions 
+texture, 4, Movement_Israelite.png, Israelite's Movement Animations in 8 Directions
+texture, 5, Prayer_Israelite.png, Isrealite's Prayer Animation in 8 Directions
+texture, 6, Movement_Animal001.png, Animal movement animation in 8 directions
+texture, 20, North_Land_001.png, landscapre sprite tiles NORTH 001
+texture, 23, North_Objects_001.png, Object Sprites NORTH 001
+texture, 26, North_Actions_001.png, God's Actions NORTH 001
+texture, 28, North_Actions_002.png, God's Actions NORTH 001
+
+//sprite, sprite ID, file ID, left, top, width, height, scale, angle, alpha, max frames, starting frames, time, description
+//25.56° left isometric LIGHT from the RIGHT
+sprite, 101, 20, 0, 0, 128, 128, 1, 0, 255, 0, 1, 0, Ground
+sprite, 102, 20, 128, 0, 128, 128, 1, 0, 255, 1, 1, 0, Ground-Rock_1
+sprite, 103, 20, 256, 0, 128, 128, 1, 0, 255, 1, 1, 0, Ground-Rock_2
+sprite, 104, 20, 384, 0, 128, 128, 1, 0, 255, 1, 1, 0, Rock
+sprite, 105, 20, 0, 128, 128, 128, 1, 0, 255, 7, 1, 0.2, Water
+sprite, 106, 20, 0, 257, 128, 256, 1, 0, 255, 1, 1, 0, Mountain_1
+sprite, 107, 20, 512, 0, 128, 128, 1, 0, 255, 1, 1, 0, Soil
+sprite, 108, 20, 0, 512, 128, 128, 1, 0, 255, 1, 1, 0, Gorge
+sprite, 109, 20, 384, 257, 128, 256, 1, 0, 255, 3, 1, 0.2, Mountain_River
+sprite, 110, 20, 128, 257, 128, 256, 1, 0, 255, 1, 1, 0, Mountain_2
+sprite, 111, 20, 256, 257, 128, 256, 1, 0, 255, 1, 1, 0, Mountain_3
+sprite, 112, 20, 0, 640, 128, 128, 1, 0, 255, 1, 1, 0, Grass-Sand_1
+sprite, 113, 20, 128, 640, 128, 128, 1, 0, 255, 1, 1, 0, Grass-Sand_2
+sprite, 114, 20, 256, 640, 128, 128, 1, 0, 255, 1, 1, 0, Sand
+sprite, 115, 20, 384, 640, 128, 128, 1, 0, 255, 1, 1, 0, Sand-Rock_1
+sprite, 116, 20, 512, 640, 128, 128, 1, 0, 255, 1, 1, 0, Sand-Rock_2
+sprite, 117, 20, 896, 128, 128, 128, 1, 0, 255, 1, 1, 0, Dry_Water_Bed
+sprite, 118, 20, 640, 640, 128, 128, 1, 0, 255, 1, 1, 0, Hill_1
+sprite, 119, 20, 768, 640, 128, 128, 1, 0, 255, 1, 1, 0, Hill_2
+
+//25.56° right isometric LIGHT from the LEFT Start from ID 300
+//sprite, 300, 0, 16, 276, 128, 69, 1, 0, 255, 1, 1, 0, shadow
+
+
+//things
+sprite, 600, 23, 0, 0, 128, 192, 1, 0, 255, 6, 1, 0.2, Pillar_of_Smoke
+sprite, 601, 23, 771, 14, 122, 120, 1, 0, 255, 1, 1, 0, Building_1
+sprite, 602, 23, 0, 448, 128, 128, 1, 0, 255, 3, 1, 0.2, Tent_1
+sprite, 603, 23, 0, 256, 128, 192, 1, 0, 255, 6, 1, 0.2, Pillar_of_Fire
+sprite, 604, 23, 0, 704, 128, 64, 1, 0, 255, 6, 1, 0.2, Waving_Grass
+sprite, 605, 23, 0, 768, 128, 64, 1, 0, 255, 6, 1, 0.2, Wheat_Field
+sprite, 606, 23, 0, 832, 128, 128, 1, 0, 255, 1, 1, 0, Column_1
+sprite, 607, 23, 128, 832, 128, 128, 1, 0, 255, 1, 1, 0, Column_2
+
+sprite, 700, 26, 0, 0, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_BACK_LEFT
+sprite, 701, 26, 512, 0, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_BACK_RIGHT
+sprite, 702, 26, 0, 128, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_BACK_BOTH
+sprite, 703, 26, 512, 128, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_FRONT_BOTH
+sprite, 704, 26, 0, 256, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_FRONT_LEFT
+sprite, 705, 26, 512, 256, 128, 128, 1, 0, 255, 3, 1, 0.2, Waves_FRONT_RIGHT
+
+sprite, 706, 26, 0, 384, 128, 128, 1, 0, 255, 4, 1, 0.4, Rolling_Roll_NE
+sprite, 707, 26, 0, 640, 128, 128, 1, 0, 255, 8, 1, 0.2, Breaking_Rock
+sprite, 708, 26, 0, 768, 128, 128, 1, 0, 255, 8, 1, 0.2, Gorge_Animation
+
